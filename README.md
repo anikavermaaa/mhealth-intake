@@ -30,6 +30,7 @@ Instead of relying on a fixed 0.5 cutoff, decision thresholds are calibrated usi
 ---
 
 ## Repository Structure
+
 mhealth-intake/
 ├── app.py
 ├── train_two_heads.py
@@ -43,6 +44,8 @@ mhealth-intake/
 ├── configs/
 ├── prompts/
 └── stats_lengths.py
+Datasets, intermediate outputs, and environment files are intentionally excluded to preserve privacy and reproducibility boundaries.
+
 
 ## Results
 The dual-head architecture demonstrates improved interpretability and calibration compared to single-output baselines, particularly in scenarios where anxiety indicators are linguistically subtle or context-dependent. Threshold calibration further stabilizes predictions across varying response lengths and styles.
