@@ -43,21 +43,22 @@ mhealth-intake/
 ├── configs/
 ├── prompts/
 └── stats_lengths.py
-Results
+
+## Results
 The dual-head architecture demonstrates improved interpretability and calibration compared to single-output baselines, particularly in scenarios where anxiety indicators are linguistically subtle or context-dependent. Threshold calibration further stabilizes predictions across varying response lengths and styles.
 Detailed metrics and analysis are discussed in the associated research manuscript.
 
-Ethical Considerations
+## Ethical Considerations
 This system is intended strictly for research, screening support, and exploratory analysis. It does not provide diagnoses and should not be used as a substitute for professional mental health evaluation.
 
-Research Context
+## Research Context
 This implementation is directly linked to an academic research paper focused on multi-factor behavioral and psychological analysis using conversational and self-reported text. The repository serves as a reproducible reference for the modeling and evaluation methodology described in the study.
 
-Future Work
+## Future Work
 Longitudinal modeling of intake responses
 Uncertainty estimation and confidence calibration
 Extension to additional behavioral dimensions
 Fairness and bias audits across demographic groups
 
-License
+## License
 This project is released for academic and research use. Please cite the associated paper when referencing this work.
