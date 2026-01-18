@@ -1,0 +1,1 @@
+This project holds intake prompts, question bank, follow-ups, JSON schema, PII+Safety rules, and embedding plan.
