@@ -30,22 +30,8 @@ Instead of relying on a fixed 0.5 cutoff, decision thresholds are calibrated usi
 ---
 
 ## Repository Structure
-
-mhealth-intake/
-├── app.py
-├── train_two_heads.py
-├── eval_bert_twoheads.py
-├── model_infer.py
-├── bert_probe.py
-├── recalibrate_rc_thresholds.py
-├── prep_clean.py
-├── prep_split.py
-├── prep_rc_split.py
-├── configs/
-├── prompts/
-└── stats_lengths.py
-Datasets, intermediate outputs, and environment files are intentionally excluded to preserve privacy and reproducibility boundaries.
-
+## Repository Structure
+The repository is organized into modular scripts for preprocessing, model training, evaluation, and inference, with configuration files and prompt templates stored separately. Datasets and intermediate outputs are excluded to preserve privacy.
 
 ## Results
 The dual-head architecture demonstrates improved interpretability and calibration compared to single-output baselines, particularly in scenarios where anxiety indicators are linguistically subtle or context-dependent. Threshold calibration further stabilizes predictions across varying response lengths and styles.
